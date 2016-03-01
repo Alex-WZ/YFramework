@@ -1,0 +1,59 @@
+.body{
+	
+}
+.container{
+}
+.logo-img{
+	width:105px;
+}
+.header{
+	min-height: 250px;
+	padding: 45px 0 0;
+	background-image: url(/public/img/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size: cover;
+}
+.title{
+	color: white;
+	font-weight: 600;
+}
+.title-desc{
+	color: #5D4A4A;
+}
+.menu{
+	display: block;
+	list-style-type: disc;
+	padding: 0;
+	margin: 0;
+	line-height: 50px;
+}
+.menu li{
+	width: 100px;
+	text-align: center;
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	margin-bottom: -2px;
+
+}
+.menu li:hover{
+	color: #f4645f;
+}
+.menu li.active{
+	border-bottom: 3px solid #f4645f;
+}
+.container.menu-row{
+	width: 100%;
+	text-align: center;
+	background-color: #EBEBEB;
+}
+.content{
+	padding:  0 40px;
+}
+.container.footer{
+	width: 100%;
+	bottom: 1%;
+	position: absolute;
+	color: #ddd;
+}
