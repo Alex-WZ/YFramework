@@ -1,15 +1,14 @@
 <?php
-
 class indexController  extends Controller{
 
 	function __construct(){
 	}
 
 	public function index(){
-		$a = $this->_getParam('a');
-		$b = $this->_getParam('b');
-		$c = $this->_getParam('c');
-		$this->_assign('p',$a.$b.$c);
+		$ipAddresss = getRealIpAddr();
+		$userAgent = $_SERVER['HTTP_USER_AGENT'];
+		// $userService = new userService();
+		// $recordResult = $userService->addUsrRecord();
 		$this->_display('view/index.html');
 	}
 
@@ -30,4 +29,5 @@ class indexController  extends Controller{
 	public function others(){
 		echo "others";
 	}
+
 }

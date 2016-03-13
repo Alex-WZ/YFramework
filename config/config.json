@@ -1,0 +1,8 @@
+{
+	"dbname":"test",
+	"dbuser":"root",
+	"dbpasswd":"vertrigo",
+	"dbhost":"localhost:3306",
+	"dbport":"3306",
+	"dbtype":"mysql"
+}

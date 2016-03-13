@@ -64,4 +64,6 @@ class Controller
 	    	throw new Exception("page not exists", 1);
 	    }
 	}
+
+	protected function getUserIdFromCookie(){}
 }
